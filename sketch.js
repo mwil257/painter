@@ -78,6 +78,7 @@ function snap(){
 function draw() {
   particleCount = int(map(sensor0, 0, 1000, 0, 50));
   print(sensor0, sensor1, sensor2, buttonVal, buttonVal1, buttonVal2,buttonVal3);
+  text(sensor0, 0, 510);
   video.loadPixels();
   if(buttonVal == 0){
   particle.sleep();
