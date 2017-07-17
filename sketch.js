@@ -32,7 +32,7 @@ function setup() {
   slider0 = createSlider(0, 1023, 1);
   slider0.position(0, 510);
   slider0.input(updateSlider);
-  slider1 = createSlider(0, 1023, 1);
+  slider1 = createSlider(0, 1023, 1023);
   slider1.position(0, 535);
   slider1.input(updateSlider);
   slider2 = createSlider(0, 1023, 1);
